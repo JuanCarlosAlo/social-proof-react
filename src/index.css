@@ -1,5 +1,6 @@
 :root{
-	--main-color:#512051
+	--main-color:#512051;
+	--card-color:rgba(247, 242, 247, 1);
 }
 
 *,
