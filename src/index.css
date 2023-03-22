@@ -1,6 +1,7 @@
 :root{
 	--main-color:#512051;
 	--card-color:rgba(247, 242, 247, 1);
+	--secondary-color: #EE69A4;
 }
 
 *,
@@ -20,4 +21,7 @@ img{
 
 body {
 	font-family: sans-serif;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
 }

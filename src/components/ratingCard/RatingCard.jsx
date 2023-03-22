@@ -6,7 +6,7 @@ const RatingCard=({text})=>{
     return(
         <div className={style['rating-card']}>
                 <div className={style['rating-card-stars-container']}>
-                {[...Array(stars)].map((e) => 
+                {[...Array(stars)].map(() => 
                 <img key={v4()} src="/images/icon-star.svg" alt="" />)}
                 </div>
                
